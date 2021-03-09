@@ -19,26 +19,72 @@ body{
   grid-template-columns: 1fr 1fr;
   width: 636px;
   height: 476px;
-  margin: 160px auto 10px;
+  margin: 160px auto 100px;
   border-radius: 8px;
   overflow: hidden;
   box-sizing: border-box;
 }
 .our_community{
   grid-column: 1 /3 ;
-  padding: 40px;
-  height: 219px;
+  padding: 25px 35px 35px 35px;
+  /* height: 219px; */
 }
 .monthly_suscription{
   background-color: var(--Cyan);
   padding: 40px;
-  height: 258px;
+  /* height: 258px; */
 }
 .why_us{
-  background-color: var(--light_Cyan);
-  padding: 40px;
-  height: 258px;
+  background-color: rgb(74, 190, 189);
+  padding: 35px;
+  /* height: 258px; */
 }
-
+.our_community h1{
+  font-size: 22px;
+  color: var(--Cyan);
+}
+.our_community h2{
+  color: var(--Bright_Yellow);
+  font-size: 18px;
+  margin: 25px 0 10px 0;
+}
+.our_community p{
+  color: var(--Grayish_Blue);
+  line-height: 28px;
+  margin: 0;
+}
+.monthly_suscription, .why_us{
+  color: var(--Light_Gray);
+  padding: 24px;
+}
+.monthly_suscription h2{
+  font-size: 18px;
+}
+.price{
+  font-size: 32px;
+  font-weight: 700;
+}
+.payment{
+  border: 1px solid;
+}
+.why_us h2{
+  font-size: 18px;
+}
+button{
+  background-color: var(--Bright_Yellow);
+  border-radius: 5px;
+  width: 240px;
+  height: 50px;
+  border-style: none;
+  color: var(--Light_Gray);
+  font-size: 15px;
+  font-weight: 700;
+}
+li{
+  /* display: inline-block; */
+  list-style-type: none;
+  margin-left: -40px;
+  font-size: 14px;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
